@@ -1,4 +1,5 @@
 import { expresiones } from "./expresiones.js"
+export function validarFormulario() {
 let inputs = document.getElementsByClassName("formulario__entrada")
 let arregloInputs = [...inputs]
 arregloInputs.map((input) => {
@@ -85,3 +86,4 @@ hobbies.forEach((hobbie)=>{
         }
     })
 })
+}
